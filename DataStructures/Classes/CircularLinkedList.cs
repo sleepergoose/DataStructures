@@ -107,7 +107,7 @@ namespace DataStructures.Classes
         /// <summary>
         /// Returns True if the Linke List contains data, otherwise, False
         /// </summary>
-        /// <param name="data">Data for searching</para
+        /// <param name="data">Data for searching</param>
         public bool Contains(T data)
         {
             if (data == null)
