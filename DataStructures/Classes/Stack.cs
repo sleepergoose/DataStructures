@@ -5,6 +5,10 @@ using System.Text;
 
 namespace DataStructures.Classes
 {
+    /// <summary>
+    /// LIFO stack class
+    /// </summary>
+    /// <typeparam name="T">Data type</typeparam>
     class Stack<T> : IEnumerable<T>
     {
         // Node counter
